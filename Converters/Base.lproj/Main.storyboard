@@ -56,7 +56,7 @@
                                             <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                         </state>
                                         <connections>
-                                            <action selector="converter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z0b-rE-kIR"/>
+                                            <action selector="convert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8B9-Tm-n06"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qy2-gC-sXd">
@@ -67,13 +67,13 @@
                                             <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                         </state>
                                         <connections>
-                                            <action selector="converter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fnw-VU-fGy"/>
+                                            <action selector="convert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dbN-3U-ep6"/>
                                         </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.22745098039215686" green="0.52156862745098043" blue="0.87450980392156863" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a9H-TR-X9D">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.20000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="a9H-TR-X9D">
                                 <rect key="frame" x="16" y="463" width="343" height="147"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="100"/>
